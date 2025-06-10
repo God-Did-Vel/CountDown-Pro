@@ -1,54 +1,56 @@
-# React + TypeScript + Vite
+# ⏱️ CountDown Pro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**CountDown Pro** is a beautifully crafted timer and countdown application for macOS, designed to help you stay on track, manage your time visually, and customize your workspace with live countdowns and clocks.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📦 Features
 
-## Expanding the ESLint configuration
+### 🕒 Elegant Countdown & Clock Widgets
+- Always-on-top floating timers and clocks
+- Multiple display styles: Flip clock, Digital, Jackpot, Matrix, etc.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 🎨 Live Wallpaper Mode
+- Embed countdowns directly into your desktop background
+- Switch between light, dark, and custom themes
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### 🎯 Productivity-Driven Tools
+- Countdown timers with millisecond precision
+- Pomodoro-style focus session tracking
+- Automatic start/stop on app launch or sleep
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 📅 System Integration
+- macOS calendar syncing
+- Notification Center alerts
+- Zoom & Keynote overlays for presentations
+- Multi-display and fullscreen app support
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### 🧩 Customization
+- Resize and reposition timers anywhere on screen
+- Optional sound alerts, vibration (if supported), and silent mode
+- Set up recurring countdowns or one-time events 
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+--
+
+| Floating Timer | Flip Clock | Matrix Theme |
+|----------------|------------|---------------|
+| ![timer](/public/images/image.png) |
+
+---
+
+## 🚀 Use Cases
+
+- **Teachers & Presenters**: Time your Zoom calls or class segments.
+- **Students**: Countdown to exams or assignment deadlines.
+- **Developers**: Visual Pomodoro focus sessions.
+- **Event Planners**: Track days to launches, weddings, or holidays.
+- **Streamers**: Overlay live countdowns on OBS.
+
+---
+
+
+
+
+> Time waits for no one—but now, you won’t wait on time.  
+> _– CountDown Pro_
+
