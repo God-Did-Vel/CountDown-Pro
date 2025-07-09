@@ -66,11 +66,11 @@ function App() {
         </div>
       </header>
 
-      {/* Main Content */}
+      {/* Main Content */}                                        
       <main className="main">
         <div className="container">
           <div className="hero-section">
-            <h1 className="main-title">New Year Countdown 2026</h1>
+            <h1 className="main-title">New Year Countdown 2025</h1>
             <p className="main-subtitle">Get ready for an amazing celebration!</p>
           </div>
 
